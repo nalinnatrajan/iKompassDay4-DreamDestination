@@ -37,7 +37,7 @@
                                     <rect key="frame" x="100" y="304" width="200" height="50"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="7TD-Dm-Sct" kind="show" id="jSc-35-FPf"/>
+                                    <segue destination="7TD-Dm-Sct" kind="show" identifier="Japan" id="jSc-35-FPf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -87,6 +87,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="zvc-6K-tmH"/>
+        <segue reference="jSc-35-FPf"/>
     </inferredMetricsTieBreakers>
 </document>

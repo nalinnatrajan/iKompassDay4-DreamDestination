@@ -27,5 +27,10 @@
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     UIViewController *destinationViewController = (UIViewController *)segue.destinationViewController;
     destinationViewController.title = [sender currentTitle];
+    if ([segue.identifier isEqualToString:@"Finland"]){
+        destinationViewController.view.backgroundColor = [UIColor redColor];
+    } else {
+        destinationViewController.view.backgroundColor = [UIColor blueColor];
+    }
 }
 @end
